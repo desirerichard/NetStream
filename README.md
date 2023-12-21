@@ -65,3 +65,12 @@ Show last 3 actors/actresses added :
 SELECT * from actor
 ORDER by id_actor DESC LIMIT 3
 ```
+
+<br>
+
+### Advanced SQL Requests
+
+Call the stored procedure to get films by Quentin Tarantino :
+```sql
+SELECT * FROM Get_Films_by_Director('Christopher Nolan');
+```
