@@ -74,3 +74,10 @@ Call the stored procedure to get films by Christopher Nolan :
 ```sql
 SELECT * FROM Get_Films_by_Director('Christopher Nolan');
 ```
+
+Update UserTable :
+```sql
+UPDATE UserTable
+SET last_name = 'NewLastName', first_name = 'NewFirstPrenom'
+WHERE id_user = 2;
+```
