@@ -59,3 +59,9 @@ Delete an actor/actress :
 ```sql
 DELETE FROM Actor WHERE last_name='Amelio';
 ```
+
+Show last 3 actors/actresses added :
+```sql
+SELECT * from actor
+ORDER by id_actor DESC LIMIT 3
+```
