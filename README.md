@@ -35,3 +35,9 @@ JOIN Playing P ON F.id_film = P.id_film
 JOIN Actor A ON A.id_actor = P.id_actor
 where A.last_name = 'DiCaprio' AND A.first_name = 'Leonardo';
 ```
+
+Add a film :
+```sql
+INSERT INTO Film (title, duration, year_date, id_director) VALUES
+('Once Upon a Time in Hollywood', 161, 2019, 3);
+```
