@@ -70,7 +70,7 @@ ORDER by id_actor DESC LIMIT 3
 
 ### Advanced SQL Requests
 
-Call the stored procedure to get films by Quentin Tarantino :
+Call the stored procedure to get films by Christopher Nolan :
 ```sql
 SELECT * FROM Get_Films_by_Director('Christopher Nolan');
 ```
