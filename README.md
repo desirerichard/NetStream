@@ -26,3 +26,12 @@ JOIN Playing P ON A.id_actor = P.id_actor
 JOIN Film F ON P.id_film = F.id_film
 WHERE F.title = 'Inception';
 ```
+
+A list of movies featuring a specific actor/actress :
+```sql
+SELECT F.title
+FROM Film F
+JOIN Playing P ON F.id_film = P.id_film
+JOIN Actor A ON A.id_actor = P.id_actor
+where A.last_name = 'DiCaprio' AND A.first_name = 'Leonardo';
+```
