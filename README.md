@@ -81,3 +81,8 @@ UPDATE UserTable
 SET last_name = 'NewLastName', first_name = 'NewFirstPrenom'
 WHERE id_user = 2;
 ```
+
+Select all records in the update table :
+```sql
+SELECT * FROM UserTable_Update;
+```
