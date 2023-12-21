@@ -20,11 +20,11 @@ Please follow this steps to run the container :
 docker compose up
 ```
 
-The script.sql file is to generate automatically the database (tables, data...).
+The script.sql file is to generate automatically the database (tables, datas...).
 
 Once the container is running, you need to connect the database with an SQL Client like DBeaver.
 
-To connect, you need to enter `"user"` for the username. Offcorse, in the docker-compose.yml file, the password is hidden.
+To connect, you need to enter `user` for the username. Offcorse, in the docker-compose.yml file, the password is hidden.
 
 The local port is `5432`.
 
