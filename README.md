@@ -41,3 +41,9 @@ Add a film :
 INSERT INTO Film (title, duration, year_date, id_director) VALUES
 ('Once Upon a Time in Hollywood', 161, 2019, 3);
 ```
+
+Add an actor/actress :
+```sql
+INSERT INTO Actor (last_name, first_name, birthday) VALUES
+('Amelio', 'Austin', '1988-04-27');
+```
