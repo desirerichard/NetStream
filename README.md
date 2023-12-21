@@ -47,3 +47,9 @@ Add an actor/actress :
 INSERT INTO Actor (last_name, first_name, birthday) VALUES
 ('Amelio', 'Austin', '1988-04-27');
 ```
+Edit a film :
+```sql
+UPDATE Film
+SET title = 'Arthur', duration = '120'
+WHERE id_film = 7;
+```
