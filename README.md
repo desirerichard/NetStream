@@ -28,6 +28,9 @@ To connect, you need to enter `user` for the username and `passworddb` for the p
 
 The local port is `5432`.
 
+To connect with an admin user instead of the default root user please use :
+`admin_database` for the username and `admin_database_password` for the password
+
 ---
 
 
