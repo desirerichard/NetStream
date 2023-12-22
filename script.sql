@@ -56,6 +56,15 @@ CREATE TABLE IF NOT EXISTS Playing (
 );
 
 
+-- Create Admin_Database
+CREATE USER admin_database WITH PASSWORD 'admin_database_password';
+
+GRANT ALL PRIVILEGES ON DATABASE postgres TO admin_database;
+
+REVOKE ALL PRIVILEGES ON DATABASE postgres FROM PUBLIC;
+
+
+
 -- Add datas
 
 -- Add admin & visitor roles
