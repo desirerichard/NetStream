@@ -24,7 +24,7 @@ The script.sql file is to generate automatically the database (tables, datas...)
 
 Once the container is running, you need to connect the database with an SQL Client like DBeaver.
 
-To connect, you need to enter `user` for the username and `passworddb` for the password.
+To connect, you need to enter `postgres` for the username and `passworddb` for the password.
 
 The local port is `5432`.
 
